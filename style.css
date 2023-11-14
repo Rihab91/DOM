@@ -1,0 +1,51 @@
+
+
+.containerT{
+    display: flex;
+    background-color: rgb(155, 190, 205);
+    border: 1px rgb(47, 40, 40) solid;
+    flex-direction: column;
+   
+  }
+  .title{
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-around;
+    border: solid black 1px;
+    background-color: beige;
+  }
+  .product{
+    display: flex;
+    border: rgb(56, 56, 172) 2px solid;
+    height: 60px;
+    justify-content: space-between;
+    
+  }
+  .product button {
+    width: 60px;
+    height: 60px;
+  }
+  .product img{
+    width: 60px;
+    height: 60px;
+  }
+
+  .event{
+    display: flex;
+  }
+  .event button {
+    width: 60px;
+    height: 60px;
+
+  }
+  
+  .like {
+    width: 60px;
+    background-color: white;
+  }
+ .final{
+  display: flex;
+  justify-content:flex-start;
+
+  background-color: rgb(189, 177, 201);
+ }

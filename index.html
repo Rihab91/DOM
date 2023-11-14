@@ -1,0 +1,70 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+      </head>
+      <body>
+        <div class="containerT">
+          <div class="carte">
+            <div class="title">
+              <h1>name</h1>
+              <h1>price</h1>
+              <h1>Quantité</h1>
+              <h1>total</h1>
+            </div>
+            <div class="product">
+              <img src="lovepik-hand-painted-makeup-cosmetics-foundation-eye-png-image_401457183_wh1200.png" alt="" />
+              <h1>makeup</h1>
+              <h1 class="prix">100000</h1>
+              <button onclick="ajouter(event)">+</button>
+              <h2>1</h2>
+              <button onclick="sub(event)">-</button>
+              <h3 class="totalprix">100000</h3>
+              <div class="event">
+                <button onclick="suprim(event)">Remove</button>
+                <button class="heart" onclick="like(event)">&#x2661;</button>
+              </div>
+            </div>
+            <div class="product">
+              <img src="2053953-02-2.jpg" alt="" />
+              <h1>Hooodie</h1>
+              <h1 class="prix">200000</h1>
+              <button onclick="ajouter(event)">+</button>
+              <h2 >1</h2>
+              <button onclick="sub(event)">-</button>
+              <h3 class="totalprix">200000</h3>
+              <div class="event" >
+                <button onclick="suprim(event)">Remove</button>
+                <button class="heart" onclick="like(event)">&#x2661;</button>
+              </div>
+            </div>
+            <div class="product">
+              <img src="2UfZkc8NRZTJ9cTqcoZstqTCLIW-mobile.jpg" alt="" />
+              <h1>Montree</h1>
+              <h1 class="prix">500000</h1>
+              <button onclick="ajouter(event)">+</button>
+              <h2>1</h2>
+              <button onclick="sub(event)">-</button>
+              <h3 class="totalprix">500000</h3>
+              <div class="event">
+                <button onclick="suprim(event)">Remove</button>
+                <button class="heart" onclick="like(event)">&#x2661;</button>
+              </div>
+            </div>
+            <div class="final" >
+                <h1>Your total:</h1>
+                <h1 id="Totalfinal">0</h1>
+                <h1> dt </h1>
+            </div>
+          </div>
+        </div>
+    
+        <script src="main.js"></script>
+      </body>
+    </html>
+  
+   
